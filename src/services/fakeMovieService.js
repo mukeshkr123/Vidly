@@ -66,6 +66,27 @@ const movies = [
     numberInStock: 7,
     dailyRentalRate: 3.5,
   },
+  {
+    _id: "5b21ca3eeb7f6fbccd47133821",
+    title: "The End Game",
+    genre: { _id: "5b21ca3eeb7f22216fbccd471818", name: "Action" },
+    numberInStock: 7,
+    dailyRentalRate: 3.5,
+  },
+  {
+    _id: "5b21ca3eeb7f6fbcc333d47181f",
+    title: "The Sixth War",
+    genre: { _id: "5b21ca3eeb73323f6fbccd471820", name: "Thriller" },
+    numberInStock: 4,
+    dailyRentalRate: 3.5,
+  },
+  {
+    _id: "5b2ee3e1ca3eeb7f6fbcc333d47181f",
+    title: "The Accidental War",
+    genre: { _id: "5b21ca3eeb73323f6fbccd471820", name: "Thriller" },
+    numberInStock: 4,
+    dailyRentalRate: 3.5,
+  },
 ];
 
 export function getMovies() {
